@@ -1,6 +1,6 @@
 {
   "name": "threejsportfolio",
-  "homepage":  "https://spikedwithsherbet.github.io/portfolio/"
+  "homepage":  "https://spikedwithsherbet.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-    "predeploy": "npm run build"
-    "deploy":  "gh-pages -d dist"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy":  "gh-pages -d dist",
   },
   "dependencies": {
     "@react-three/drei": "^10.0.6",
