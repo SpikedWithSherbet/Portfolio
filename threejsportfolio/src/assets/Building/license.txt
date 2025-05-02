@@ -1,0 +1,11 @@
+Model Information:
+* title:	low poly multi storied building
+* source:	https://sketchfab.com/3d-models/low-poly-multi-storied-building-fc8e064896af402587697d0523038938
+* author:	geniusrahman155 (https://sketchfab.com/geniusrahman155)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "low poly multi storied building" (https://sketchfab.com/3d-models/low-poly-multi-storied-building-fc8e064896af402587697d0523038938) by geniusrahman155 (https://sketchfab.com/geniusrahman155) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
