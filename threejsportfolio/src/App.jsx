@@ -330,9 +330,9 @@ export default function App() {
 
                                 <div id = "contactcontain2">
 
-                                <img src="./src/assets/linkedin.png" />
+                                <a href="#"> <img src="./src/assets/linkedin.png"/></a>
 
-                                <img src="./src/assets/instagram.png" />
+                                    <a href="#"> <img src="./src/assets/instagram.png" /></a>
                                     </div>
                             </>
                         )}
@@ -358,7 +358,7 @@ export default function App() {
                 </dialog>
             )}
 
-            <Canvas camera={{ position: [0, 0, 30], fov: 75 }}>
+            <Canvas camera={{ position: [0, 0, 35], fov: 75 }}>
                 <color attach="background" args={['#1a1a1a']} />
                 <Scene setShowModal={setShowModal} setModalContent={setModalContent} />
             </Canvas>

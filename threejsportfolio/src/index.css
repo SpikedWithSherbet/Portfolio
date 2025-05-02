@@ -16,6 +16,7 @@ h1 {
 }
 canvas {
   display: block;
+  animation: fadeIn2 ease-in 2s;
 }
 dialog {
     background-color: rgb(26, 28, 26);
@@ -89,9 +90,11 @@ button{
         border: 5px solid lightgreen;
     }
 #contactcontain1 {
-
     display: flex;
     gap: 1rem;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 img {
@@ -99,21 +102,23 @@ img {
 }
 
 #contactcontain1 img {
-    width: 3rem;
-    height: 3rem;
+    width: 3%;
+    height: 3%;
 }
 
 #contactcontain2 {
     padding-top: 1rem;
     display: flex;
     gap: 1rem;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
-#contactcontain2 img {
+/*#contactcontain2 img {
     
     width: 3rem;
     height: 3rem;
-}
+}*/
 
 dialog img, h1, h2, p, button {
     animation: fadeIn 0.7s;
@@ -143,5 +148,15 @@ dialog img, h1, h2, p, button {
     100% {
         opacity: 1;
         transform: translateY(0px)
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
